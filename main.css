@@ -11,10 +11,11 @@ header{
     padding: 16px 0; 
     color: #fff;
     display: flex;
-    border-bottom: 16ps solid  #341f97;
+    border-bottom: 16px solid  #341f97;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
+    
 }
 
 header button{
@@ -58,6 +59,7 @@ ul li{
    position: relative;  
    max-height: 280px;
   overflow-y: hidden;
+  
 }
 
 ul li img{
@@ -71,7 +73,8 @@ ul li img{
     bottom: 0;
     left: 0;
     width: 100%;
-    opacity: 0;
+    opacity: 0; 
+    transition: all ease .5s;
 }
 
 .overlay-imagem-link a{
